@@ -1,0 +1,10 @@
+<h1>Un ejercicio de Ajax muy simple</h1>
+<p>Esta app simula el tiro de un dado</p>
+
+<form method="post" action="/rolls">
+  <input type="submit" value="Gira el dado">
+</form>
+<br>
+<div id="die">
+    <%= erb :_die_roll, layout: false%>
+</div>
